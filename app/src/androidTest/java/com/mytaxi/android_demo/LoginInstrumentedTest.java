@@ -24,7 +24,7 @@ public class LoginInstrumentedTest {
     @Rule
     public ActivityTestRule<MainActivity> mActivityRule = new ActivityTestRule<>(
             MainActivity.class);
-//mytest
+
     @Test
     public void logInUserPass() {
         onView(withId(R.id.edt_username))
